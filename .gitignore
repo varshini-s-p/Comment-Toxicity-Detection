@@ -1,0 +1,33 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.csv
+*.xlsx
+*.h5
+*.pkl
+.ipynb_checkpoints/
+models/
+.venv/
+env/
+venv/
+.DS_Store
+Thumbs.db
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.h5
+
+# Virtual environment
+venv/
+
+# OS
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+
+# Jupyter and logs
+.ipynb_checkpoints/
+*.log
