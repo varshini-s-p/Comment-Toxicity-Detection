@@ -9,6 +9,7 @@ Multi-label classification task
 Built and compared 3 deep learning models: LSTM, CNN, and BERT
 Evaluated models using precision, recall, f1-score, and other metrics
 Deployed best-performing model (CNN) in a Streamlit web app for real-time predictions
+
 🛠️ Tech Stack
 Python 3.x
 TensorFlow / Keras
@@ -16,6 +17,7 @@ Scikit-learn
 Pandas / NumPy
 Streamlit (for deployment)
 Matplotlib / Seaborn (for visualization)
+
 🔄 Project Workflow
 1. Data Loading & Preprocessing
 Loaded labeled dataset from train.csv
@@ -40,6 +42,7 @@ Supports:
 Real-time single comment prediction
 Bulk prediction from CSV files
 Outputs downloadable CSV with predictions
+
 📁 Project Structure
 Toxicity_Detection/ │ ├── data/ │ └── train.csv │ ├── models/ │ ├── cnn_toxicity_model.keras │ └── cnn_tokenizer.pkl │ ├── outputs/ │ ├── cnn_val_predictions.csv │ └── model evaluation reports │ ├── scripts/ │ ├── preprocess.py │ ├── train_lstm.py │ ├── train_cnn.py │ ├── train_bert.py │ ├── evaluate_model.py │ └── compare_model.py │ ├── app/ │ └── streamlit_app.py │ ├── requirements.txt └── README.md
 
