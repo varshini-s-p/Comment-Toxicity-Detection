@@ -4,7 +4,7 @@ This project focuses on detecting toxic online comments using advanced deep lear
 
 ## 📌 Project Highlights
 
-- Multi-label classification task using the [Jigsaw Toxic Comment Classification Challenge](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge) dataset
+- Multi-label classification task 
 - Built and compared 3 deep learning models: **LSTM**, **CNN**, and **BERT**
 - Evaluated models using `precision`, `recall`, `f1-score`, and other metrics
 - Deployed best-performing model (CNN) in a **Streamlit web app** for real-time predictions
